@@ -361,7 +361,7 @@ export default function NoidaFuneralServices() {
                 {/* Main Heading */}
                 <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight animate-slide-up" style={{animationDelay: '0.1s'}}>
                   Compassionate Care in
-                  <span className="block text-[#55646b]">Difficult Times</span>
+                  Difficult Times
                 </h1>
                 
                 {/* Description */}
