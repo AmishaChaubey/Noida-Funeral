@@ -983,7 +983,7 @@ export default function NoidaFuneralServices() {
                   <li key={item}>
                     <button
                       onClick={() => scrollToSection(item.toLowerCase())}
-                      className="text-sm sm:text-base text-gray-300 hover:text-indigo-400 transition-colors"
+                      className="text-sm sm:text-base text-gray-300 hover:text-white transition-colors"
                     >
                       {item}
                     </button>
@@ -997,24 +997,24 @@ export default function NoidaFuneralServices() {
               <h4 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Contact</h4>
               <ul className="space-y-3 sm:space-y-4">
                 <li className="flex items-start space-x-3">
-                  <Phone className="flex-shrink-0 text-indigo-400 mt-1" size={16} />
+                  <Phone className="flex-shrink-0 text-white mt-1" size={16} />
                   <div>
-                    <a href="tel:+919259300588" className="text-sm sm:text-base hover:text-indigo-400 transition-colors">
+                    <a href="tel:+919259300588" className="text-sm sm:text-base hover:text-white transition-colors">
                       +91 9259300588
                     </a>
                     <p className="text-xs text-gray-400">24/7 Helpline</p>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <Mail className="flex-shrink-0 text-indigo-400 mt-1" size={16} />
+                  <Mail className="flex-shrink-0 text-white mt-1" size={16} />
                   <div>
-                    <a href="mailto:support@noidafuneral.com" className="text-sm sm:text-base hover:text-indigo-400 transition-colors break-all">
+                    <a href="mailto:support@noidafuneral.com" className="text-sm sm:text-base hover:text-white transition-colors break-all">
                       support@noidafuneral.com
                     </a>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <MapPin className="flex-shrink-0 text-indigo-400 mt-1" size={16} />
+                  <MapPin className="flex-shrink-0 text-white mt-1" size={16} />
                   <span className="text-sm sm:text-base">All Sectors, Noida, UP</span>
                 </li>
               </ul>
